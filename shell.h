@@ -3,9 +3,9 @@
 
 #include <stdio.h> /* for printf*/
 #include <unistd.h> /* for fork, execve*/
-#include <stdlib.h>
+#include <stdlib.h> /* for memory allocation*/
 #include <string.h> /* for strtok*/
-#include <stddef.h>
+#include <stddef.h> /* for typedef*/
 #include <errno.h> /* for errno and perror */
 #include <sys/types.h> /* for type pid */
 #include <sys/wait.h> /* for wait */
